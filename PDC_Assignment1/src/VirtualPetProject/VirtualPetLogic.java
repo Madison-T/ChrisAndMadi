@@ -18,8 +18,7 @@ public class VirtualPetLogic {
                 return new Dog(petName);
             case 3:
                 return new Rabbit(petName);
-            case 4:
-                return new Hamster(petName);
+            
             
             default:
                 return null;
